@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+		<title>Durrah</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-rtl.css">
+        <link rel="stylesheet" href="css/bootstrap-select.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-ar.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+
+	</head>
+	<body>
+	        <div class="over_click"></div>
+	        <!--------------- start header ---------------->
+	        <header> 
+	            <div class="container">
+	                <div class="top_bar">
+						<div class="logo">
+							<a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+						</div>
+						<div class="main_nav">
+							<ul class="nav_bar list-unstyled list-inline">
+								<li class="dropdown dir">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        عبايات  <span class="lnr lnr-chevron-down chev"></span> 
+                                    </a>
+                                    <ul class="dropdown-menu sam_menu">
+                                        <li>
+                                            <a class="sub" href="#">عبايات عملية</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a class="sub" href="#">عبايات مناسبات</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a class="sub" href="#">عبايات ملونة</a>
+                                            
+                                        </li>
+                                    </ul>
+                                </li>
+								<li><a href="#">طرح</a></li>
+								<li><a href="#">كمامات</a></li>
+								<li><a href="#">جلابيات</a></li>
+								<li><a href="#">إكسسوارات</a></li>
+								<li class="dropdown dir">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                         العلامات التجارية  <span class="lnr lnr-chevron-down chev"></span> 
+                                    </a>
+                                    <ul class="dropdown-menu sam_menu">
+                                        <li>
+                                            <a class="sub" href="#">العلامة التجارية</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a class="sub" href="#">العلامة التجارية</a>
+                                           
+                                        </li>
+                                        <li>
+                                            <a class="sub" href="#">العلامة التجارية</a>
+                                           
+                                        </li>
+                                    </ul>
+                                </li>
+							</ul>
+						</div>
+						<ul class="recomend list-unstyled list-inline">
+                            <li class="mob_bar">
+                                <button class="list" id="navbtn">
+                                    <span class="lnr lnr-menu"></span>
+                                </button>
+                            </li>
+						    <li class="srch">
+								<button class="search_btn" data-toggle="modal" data-target=".over_mod">
+									<span class="lnr lnr-magnifier"></span>
+								</button>
+							</li>
+							<li class="my_account lg dropdown">
+								<a class="re_btn dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<span class="lnr lnr-user"></span>
+								</a>
+								
+								<ul class="dropdown-menu sam_menu">
+									<li>
+									    <a href="#" data-toggle="modal" data-target=".over_log">تسجيل الدخول</a>
+									</li>
+									<li><a href="#">تسجيل جديد</a></li>
+								</ul>
+							</li>
+
+							<li class="fav">
+								<a class="re_btn" href="#">
+									<span class="lnr lnr-heart"></span>
+								</a>
+							</li>
+
+							<li class="cart">
+								<a class="re_btn" href="#">
+									<span class="lnr lnr-cart"></span>
+								</a>
+							</li>
+							<li class="lang lg dropdown">
+                              <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <img class="i_lang" src="images/lang.png" alt="language">العربية
+                               <span class="lnr lnr-chevron-down chev"></span>
+                              </a>
+                              <ul class="dropdown-menu sam_menu">
+                                <li>
+                                    <a href="index-en.html">
+                                        <img class="i_lang" src="images/lang-en.png" alt="language">English
+                                    </a>
+                                </li>
+                              </ul>
+                            </li> 
+						</ul>
+					</div>
+	            </div> 
+	        </header>
+	        <!--------------- end header ---------------->
+	        
+	        
+	        <!-------------------start sidenav------------------->
+		<div id="mySidenav" class="sidenav">
+            <span href="#" class="lnr lnr-cross closebtn"></span>
+            <div class="lang sm dropdown">
+              <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img class="i_lang" src="images/lang.png" alt="language">العربية
+                <span class="lnr lnr-chevron-down chev"></span> 
+              </a>
+              <ul class="dropdown-menu sam_menu">
+                <li>
+                    <a href="index-en.html">
+                        <img class="i_lang" src="images/lang-en.png" alt="language">English
+                    </a>
+                </li>
+              </ul>
+            </div>
+            <ul class="list-unstyled side_ul">
+                <li><a class="direct" href="#">الرئيسية</a></li>
+                <li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id1" aria-expanded="false">حسابي</a>
+					<ul class="mob_menu list-unstyled collapse" id="id1">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">تسجيل الدخول</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">تسجيل جديد</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">المفضلة</a>
+						</li>
+					</ul>
+				</li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id2" aria-expanded="false">عبايات</a>
+					<ul class="mob_menu list-unstyled collapse" id="id2">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">عبايات عملية</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">عبايات مناسبات</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">عبايات ملونة</a>
+						</li>
+					</ul>
+				</li>
+				<li><a class="direct" href="#">طرح</a></li>
+				<li><a class="direct" href="#">كمامات</a></li>
+				<li><a class="direct" href="#">جلابيات</a></li>
+				<li><a class="direct" href="#">إكسسوارات</a></li>
+				<li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id3" aria-expanded="false"> العلامات التجارية </a>
+					<ul class="mob_menu list-unstyled collapse" id="id3">
+						<li class="sub_cat">
+							<a class="mob_item" href="#"> العلامات التجارية </a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#"> العلامات التجارية </a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#"> العلامات التجارية </a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-------------------end sidenav------------------->
+	        
+	        <!--------------- start search modal ---------------->
+		<div class="modal fade over_mod" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true" class="lnr lnr-cross"></span>
+			</button>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="searchbox">
+						<input class="searchinput" id="search" placeholder="كلمة البحث" type="search">
+						<span class="changed"></span>
+						<button class="search_icon"type="submit"><span class="lnr lnr-magnifier"></span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--------------- end search modal ---------------->
+		
+		
+		
+		
+		
+		
+		<!--------------- start log modal ---------------->
+		
+		<div class="modal fade  over_log" id="mod-2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				    
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="lnr lnr-cross"></span>
+                        </button>
+                   
+					<div class="signed_title">تسجيل دخول</div>
+				    <form class="contact_info">  
+                        <div class="form-group">
+                            <label class="lab" for="exampleInputMail">البريد الإلكتروني</label>
+                            <input type="email" class="form-control log_fild" id="exampleInputEmail1" placeholder="" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="lab" for="exampleInputPassword">كلمة المرور</label>
+                            <input type="password" class="form-control log_fild" id="exampleInputPassword1" placeholder="" required>
+                        </div>
+                        <div class="fg_pass">
+                            <a href="#">هل فقدت كلمة المرور؟</a>
+                        </div>
+                        <div class="send_inf">
+                            <a href="#" role="button" type="submit">
+                                دخول
+                            </a>
+                            <a href="#" role="button" type="submit">
+                                  تسجيل جديد
+                            </a>
+                        </div>
+                    </form>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--------------- end log modal ---------------->
+		
+		
+		
+		<section class="our_ban-1">
+		    <div class="container">
+		        <div class="baners_row">
+                    <div class="baner">
+                        <a href="#"><img src="images/jalabya.jpg" class="img-responsive"></a>
+                        <div class="er_inf">
+                            <h6 class="er_head">جلابيات</h6>
+                            <a href="#">- تسوقي الآن -</a>
+                        </div>
+                        <div class="er_overlay"></div>
+                    </div>
+                    
+                    <div class="baner">
+                        <a href="#"><img src="images/accessories.jpg" class="img-responsive"></a>
+                        <div class="er_inf">
+                            <h6 class="er_head">إكسسوارات</h6>
+                            <a href="#">- تسوقي الآن -</a>
+                        </div>
+                        <div class="er_overlay"></div>
+                    </div>
+                    <div class="baner">
+                        <a href="#"><img src="images/masks.jpg" class="img-responsive"></a>
+                        <div class="er_inf">
+                            <h6 class="er_head">كمامات أنيقة</h6>
+                            <a href="#">- تسوقي الآن -</a>
+                        </div>
+                        <div class="er_overlay"></div>
+                    </div>
+                    <div class="baner">
+                        <a href="#"><img src="images/tarha.jpg" class="img-responsive"></a>
+                        <div class="er_inf">
+                            <h6 class="er_head">طرح متنوعة</h6>
+                            <a href="#">- تسوقي الآن -</a>
+                        </div>
+                        <div class="er_overlay"></div>
+                    </div>
+		        </div>
+		    </div>
+		</section>
+		
+		<section class="our_bans-2">
+		    <div class="container">
+		        <div class="bans_row">
+		            <div href="#" class="bans">
+		                  <img src="images/ba-1.png" class="img-responsive" alt="banner">
+		                  <div class="er_inf">
+                                <h6 class="er_head">عباية عملية</h6>
+                                <a href="#">- تسوقي الآن -</a>
+                            </div>
+		                  <div class="overlay_b"></div>
+		            </div>
+		            <div href="#" class="bans">
+                        <img src="images/ba-2.png" class="img-responsive" alt="banner">
+                        <div class="er_inf">
+                            <h6 class="er_head">عباية ملونة</h6>
+                            <a href="#">- تسوقي الآن -</a>
+                        </div>
+                        <div class="overlay_b"></div>
+                    </div>
+		            <div href="#" class="bans">
+                        <img src="images/ba-3.png" class="img-responsive" alt="banner">
+                        <div class="er_inf">
+                            <h6 class="er_head">عباية مناسبات</h6>
+                            <a href="#">- تسوقي الآن -</a>
+                        </div>
+                        <div class="overlay_b"></div>
+                    </div>
+		        </div>
+		    </div>
+		</section>
+		
+		
+		<section class="new_arrivals">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-md-3">
+		                <div class="s_title">
+		                    <h3 class="pr_title">وصل حديثًا</h3>
+		                    <a class="pr_more" href="#">- تسوقي المزيد -</a>
+		                </div>
+		            </div>
+		            <div class="col-md-9">
+		                <div class="owl-carousel pro_slider owl-theme">
+                            <div class="item pro">
+                                <div class="pr_photo">
+                                    <img src="images/p-1.jpg" class="img-responsive" alt="product">
+                                </div>
+                                <div class="info"> 
+                                    <a class="pro_name" href="#">اسم منتج تجريبي</a> 
+                                    <ul class="price list-unstyled list-inline">
+                                        <li class="cur">1500 ر.س</li>
+                                        <li class="pre">1800 ر.س</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item pro">
+                                <div class="pr_photo">
+                                    <img src="images/p-2.jpg" class="img-responsive" alt="product">
+                                </div>
+                                <div class="info">
+                                    <a class="pro_name" href="#">اسم منتج تجريبي</a>
+                                    <ul class="price list-unstyled list-inline">
+                                        <li class="cur">1500 ر.س</li>
+                                        <li class="pre">1800 ر.س</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item pro">
+                                <div class="pr_photo">
+                                    <img src="images/p-3.jpg" class="img-responsive" alt="product">
+                                </div>
+                                <div class="info">
+                                    <a class="pro_name" href="#">اسم منتج تجريبي</a>
+                                    <ul class="price list-unstyled list-inline">
+                                        <li class="cur">1500 ر.س</li>
+                                        <li class="pre">1800 ر.س</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+		
+		
+		<section class="best_seller">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-md-3">
+		                <div class="s_title">
+		                    <h3 class="pr_title">الأكثر مبيعًا</h3>
+		                    <a class="pr_more" href="#">- تسوقي المزيد -</a>
+		                </div>
+		            </div>
+		            <div class="col-md-9">
+		                <div class="owl-carousel pro_slider owl-theme">
+                            <div class="item pro">
+                                <div class="pr_photo">
+                                    <img src="images/p-4.jpg" class="img-responsive" alt="product">
+                                </div>
+                                <div class="info"> 
+                                    <a class="pro_name" href="#">اسم منتج تجريبي</a> 
+                                    <ul class="price list-unstyled list-inline">
+                                        <li class="cur">1500 ر.س</li>
+                                        <li class="pre">1800 ر.س</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item pro">
+                                <div class="pr_photo">
+                                    <img src="images/p-5.jpg" class="img-responsive" alt="product">
+                                </div>
+                                <div class="info">
+                                    <a class="pro_name" href="#">اسم منتج تجريبي</a>
+                                    <ul class="price list-unstyled list-inline">
+                                        <li class="cur">1500 ر.س</li>
+                                        <li class="pre">1800 ر.س</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item pro">
+                                <div class="pr_photo">
+                                    <img src="images/p-6.jpg" class="img-responsive" alt="product">
+                                </div>
+                                <div class="info">
+                                    <a class="pro_name" href="#">اسم منتج تجريبي</a>
+                                    <ul class="price list-unstyled list-inline">
+                                        <li class="cur">1500 ر.س</li>
+                                        <li class="pre">1800 ر.س</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+		
+		
+		<section class="new_offers">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-md-3">
+		                <div class="s_title">
+		                    <h3 class="pr_title">العروض</h3>
+		                    <a class="pr_more" href="#">- تسوقي المزيد -</a>
+		                </div>
+		            </div>
+		            <div class="col-md-9">
+		                <div class="owl-carousel pro_slider owl-theme">
+                            <div class="item pro">
+                                <div class="pr_photo">
+                                    <img src="images/p-7.jpg" class="img-responsive" alt="product">
+                                </div>
+                                <div class="info"> 
+                                    <a class="pro_name" href="#">اسم منتج تجريبي</a> 
+                                    <ul class="price list-unstyled list-inline">
+                                        <li class="cur">1500 ر.س</li>
+                                        <li class="pre">1800 ر.س</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item pro">
+                                <div class="pr_photo">
+                                    <img src="images/p-8.jpg" class="img-responsive" alt="product">
+                                </div>
+                                <div class="info">
+                                    <a class="pro_name" href="#">اسم منتج تجريبي</a>
+                                    <ul class="price list-unstyled list-inline">
+                                        <li class="cur">1500 ر.س</li>
+                                        <li class="pre">1800 ر.س</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item pro">
+                                <div class="pr_photo">
+                                    <img src="images/p-9.jpg" class="img-responsive" alt="product">
+                                </div>
+                                <div class="info">
+                                    <a class="pro_name" href="#">اسم منتج تجريبي</a>
+                                    <ul class="price list-unstyled list-inline">
+                                        <li class="cur">1500 ر.س</li>
+                                        <li class="pre">1800 ر.س</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+		
+		
+		
+		<section class="brands_mark">
+		    <div class="container">
+                <h3 class="br_title">العلامات التجارية</h3>
+		        <div class="owl-carousel brd_slider owl-theme">
+                    <div class="item brads">
+                        <a href="#" class="br_photo">
+                            <img src="images/b-1.png" alt="product">
+                        </a>
+                    </div>
+                    <div class="item brads">
+                        <a href="#" class="br_photo">
+                            <img src="images/b-2.png" alt="product">
+                        </a>
+                    </div>
+                    <div class="item brads">
+                        <a href="#" class="br_photo">
+                            <img src="images/b-3.png" alt="product">
+                        </a>
+                    </div>
+                    <div class="item brads">
+                        <a href="#" class="br_photo">
+                            <img src="images/b-4.png" alt="product">
+                        </a>
+                    </div>
+                    <div class="item brads">
+                        <a href="#" class="br_photo">
+                            <img src="images/b-5.png" alt="product">
+                        </a>
+                    </div>
+                    <div class="item brads">
+                        <a href="#" class="br_photo">
+                            <img src="images/b-6.png" alt="product">
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="pr_more">- عرض المزيد -</a>
+		    </div>
+		</section>
+		
+		
+		
+		<footer>
+		    <div class="container">
+				<div class="row">
+				    <div class="col-md-4">
+				        <div class="logo">
+							<a href="#">
+						    	<img class="img-responsive" src="images/fo_logo.png" alt="logo">
+							</a>
+							<p class="fo_disc">
+							    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها
+							</p>
+						</div>
+				    </div>
+					<div class="col-md-2">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id10" aria-expanded="false">معلومات</h5>
+							<ul class="list-unstyled collapse" id="id10">
+								<li><a href="#">من نحن</a></li>
+								<li><a href="#">الشحن والتوصيل</a></li>
+								<li><a href="#">الحسابات البنكية</a></li>
+								<li><a href="#">شروط الإستخدام</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id12" aria-expanded="false">اضافات</h5>
+							<ul class="list-unstyled collapse" id="id12">
+								<li><a href="#">الشركات</a></li>
+								<li><a href="#">قسائم الهدايا</a></li>
+								<li><a href="#">نظام العمولة</a></li>
+								<li><a href="#">العروض المميزة</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id11" aria-expanded="false">خدمة العملاء</h5>
+							<ul class="list-unstyled collapse" id="id11">
+								<li><a href="#">اتصل بنا</a></li>
+								<li><a href="#">ارجاع الطلب</a></li>
+								<li><a href="#">خريطة الموقع</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id13" aria-expanded="false">حسابي</h5>
+							<ul class="list-unstyled collapse" id="id13">
+								<li><a href="#">حسابي</a></li>
+								<li><a href="#">طلباتي</a></li>
+								<li><a href="#">قائمة رغباتي</a></li>
+								<li><a href="#">القائمة البريدية</a></li>
+							</ul>
+						</div>
+					</div>
+                </div>
+                <div class="fo_pay-soc">
+                    <div class="connect_info">
+                        <h5 class="title">اشترك في النشرة البريدية</h5>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ادخل بريدك الإلكتروني">
+                            <span class="changed"></span>
+                            <button class="check"><span class="lnr lnr-arrow-left"></span></button>
+                        </div>
+                    </div>
+                    <div class="social">
+                       <h5 class="title">تابعنا على</h5>
+                        <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="fo_p">
+                        <h5 class="title">وسائل الشحن والدفع</h5>
+                        <a href="#"><img src="images/pay.png" alt="payment"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="copy_rghts">
+                   © جميع الحقوق محفوظة ، مؤسسة درة    
+                    <span>-تصميم وتطوير  <a href="#"><img src="images/ours.png"></a></span>
+                </div>
+            </div>
+		</footer>
+		
+		<!-- loading############################## -->
+		<div class="load_overlay">
+            <div class="wavy-loader">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+            
+                
+        
+     
+
+
+        <script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-select.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/plug.js"></script>
+	</body>
+</html> 

@@ -1,0 +1,95 @@
+.sidenav
+{
+    right: 0;
+}
+header .mob_bar
+{
+    padding-right: 0;
+}
+.side_ul .mob_pros:after
+{
+    left: 20px;
+}
+.sidenav .closebtn
+{
+    left: 15px;
+}
+.sidenav .mob_menu .mob_item
+{
+    margin-right: 60px;
+}
+header .nav_bar > li
+{
+	padding-right: 22px;
+}
+.sam_menu
+{
+    right: 0;
+}
+.sam_menu:before
+{
+    right: 30px;
+}
+header .my_account .sam_menu:before
+{
+    right: 21px;
+}
+.recomend > li:last-child
+{
+    margin-right: 20px;
+}
+.over_log .close
+{
+    left: 25px;
+}
+.i_lang
+{
+    margin-left: 4px;
+}
+.search_icon
+{
+    left: 30px;
+}
+.changed
+{
+    right: 0;
+}
+.connect_info .form-group .check
+{ 
+	left: 23px;
+}
+.bans .er_inf
+{
+    right: 0;
+}
+
+
+/*md*/
+@media (min-width:992px) and (max-width:1199px)	
+{
+    .recomend > li:last-child
+    {
+        margin-right: 12px;
+    }
+
+}
+
+
+
+/*sm*and xs*/
+@media (max-width:991px)
+{
+    .fast_links .sm_title:after
+    {
+        left: 20px;
+    }
+}
+
+/*xs*/
+@media (max-width:767px)
+{
+    .lang.sm
+    {
+        right: 25px;
+    }
+}
